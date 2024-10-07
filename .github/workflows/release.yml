@@ -60,7 +60,7 @@ jobs:
           npm install -g yarn
       - name: Clone client
         run: |
-          git clone https://github.com/Sudo-Ivan/webclient.git
+          git clone https://github.com/swingmx/webclient.git
       - name: Install dependencies & Build client
         run: |
           cd webclient
